@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "preview": "vite preview",
     "format": "prettier --write .",
-    "preview": "vite preview"
+    "test": "vitest --ui"
   },
   "dependencies": {
     "path": "^0.12.7",
