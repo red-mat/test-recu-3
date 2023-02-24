@@ -1,7 +1,7 @@
 import '@/css/App.css'
 import { Link, Route, Routes } from 'react-router-dom'
 
-function Home(): JSX.Element {
+function Home() {
   return (
     <main>
       <h1>Home</h1>
