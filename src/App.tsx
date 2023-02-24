@@ -1,7 +1,7 @@
 import '@/css/App.css'
 import { Link, Route, Routes } from 'react-router-dom'
 
-function Home() {
+function Home(): JSX.Element {
   return (
     <main>
       <h1>Home</h1>
@@ -10,7 +10,7 @@ function Home() {
   )
 }
 
-function App() {
+function App(): JSX.Element {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
