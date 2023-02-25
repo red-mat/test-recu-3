@@ -8,7 +8,7 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   base: '/test-recu-3/',
-  test: { environment: 'happy-dom' },
+  test: { environment: 'happy-dom', globals: true },
   resolve: {
     alias: {
       '@': path.resolve('src'),
